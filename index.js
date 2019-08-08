@@ -1,4 +1,4 @@
-/*function shoppingList () {
+function shoppingList () {
   $('#js-shopping-list-form').submit( event => {
   event.preventDefault();
   let item = $(this).find('input[name="shopping-list-entry"]').val();
@@ -15,18 +15,12 @@
         </div>
     </li>`);
     $('.shopping-list').append(itemPlace); 
+    $("#shopping-list-entry").val("");
 
   });
 }
-$(shoppingList);*/
+$(shoppingList);
 
-$(function shoppingList () {
-$("#js-shopping-list-form").submit( event => {
-  //event.preventDefault();
- 
 
-  $('.shopping-list').append(`<div> hi </div>`); 
-});
-});
 
 

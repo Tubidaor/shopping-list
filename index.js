@@ -20,7 +20,7 @@ function shoppingList () {
 }
 $(shoppingList);
 
-$(function shoppingList () {
+$(function shoppingList ()
 
 
 

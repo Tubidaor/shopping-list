@@ -19,11 +19,8 @@ $(function shoppingList () {
 
   });
 });
-<<<<<<< HEAD
 
 
-=======
->>>>>>> d8a81cf2a58636466262d1ba5fb527a1ef3e195e
 
 $(function deleteItem () {
   $('.shopping-list').on('click', '.shopping-item-delete', function (event) {
@@ -40,8 +37,5 @@ $('.shopping-list').on('click', '.shopping-item-toggle', function(event) {
   });
 });
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> d8a81cf2a58636466262d1ba5fb527a1ef3e195e
